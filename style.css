@@ -8,6 +8,8 @@
 }
 body{
     background-image: linear-gradient(rgb(203, 209, 142),rgb(165, 155, 157));
+    background-repeat:no-repeat;
+    min-height:60vh;
 }
 
 nav{
@@ -148,8 +150,7 @@ border-top:0;
         flex-direction: column;
     }
     .gameContainer{
-        /* flex-direction: column; */
-        flex-wrap: wrap;
+         flex-direction: column; 
     }
 
     .gameInfo{
